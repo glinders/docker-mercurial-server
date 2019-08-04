@@ -29,6 +29,8 @@ All configuration is done through the hgadmin repository, as explained in the fi
 
 ## Use the `Makefile` to build and run mercurial-server
 
+Dependencies: This repository depends on repository `docker-makeinc`. Clone that repostory in the same directory as where you cloned this repository.
+
 Build: `make build`
 
 Run: `make run`
